@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 1.3rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(43, 43, 43);
+    background: linear-gradient(90deg, rgba(43, 43, 43, 1) 0%,
+            rgba(123, 123, 128, 1) 35%,
+            rgba(255, 255, 255, 1) 100%);
+    border: .25em solid #0d0d0d;
+    border-radius: 100vh;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%,
+            rgba(123, 123, 128, 1) 35%,
+            rgba(43, 43, 43, 1) 100%);
+}
+
+:root {
+    --bg-color: #000000;
+    --secound-bg-color: #000000;
+    --text-color: #ededed;
+    --main-color: #fcfcfc;
+}
+
+/* :root{
+    --bg-color: #042331;
+    --secound-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color:#00abf0; 
+} */
